@@ -105,7 +105,25 @@
             </div>
         </div>
     </footer>
-
+<script>
+            var navLinks = document.getElementById("resp");
+            var hide = document.getElementById("hide");
+            var show = document.getElementById("show");
+    
+            function showMenu(){
+                navLinks.style.right = "0px";
+                hide.style.display = "block";
+                show.style.display = "none";
+               
+            }
+    
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+                hide.style.display = "none";
+                show.style.display = "block";
+            }
+    
+        </script>
 </form>
 </body>
 </html>
