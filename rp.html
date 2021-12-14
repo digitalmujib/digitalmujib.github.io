@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style_forms.css">
+    <title>Home</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
-</head>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
 <style>
-        #login{
+    #home{
         color: rgb(151, 13, 151);
         text-decoration: 2px underline solid rgb(151, 13, 151);
     }
+    .logo_name{
+        padding-top: 11px;
+    }
 </style>
+</head>
 <body>
     <!-- <div class="loader"></div> -->
     <header>
@@ -36,33 +41,34 @@
                     </ul>
                     <i class="fa fa-bars" onclick = "showMenu()" id="show"></i>
                 </div>
-             
         </nav>
     </header>
-    <div class="main-div">
-        <form action="">
-            <h2 class="header">Login Form!</h2>
-            <label for="Email id">
-                <br>
-                <br>
-                <br>
-            <p class="space"> Email Id:   
-            <input type="Email" name = "Email" placeholder="  abc@gmail.com" required class="log" id="inp"></input>
-            </p>
-        </label>    
-        <label for="Password">
-            <p class="space">Password:  
-            <input type="password" name = "password" placeholder="  Enter your password" required class="log" id="inp"></input>
-            </p>
-        </label>   
-        <button type="submit">Login</button>
-        <br>
-        <br>
-        <input type="checkbox" checked="checked" name="remember" class="checkbox" required><span> Remember me</span>
-        <br><br>
-        <p>Don't have an Account?<a href="register.html" class="log">Register!</a></p>
-    </div>
-    
+    <section class="blog">
+        <ul>
+          <h2 id = "header1" class="header1" style="border-bottom: 4px solid purple;">* Canon EOS R5 Honest Reviews 2021!</h2>
+        </ul>
+    <img class="img1" src="https://www.jaskamerakauppa.fi/30236-thickbox_default/canon-eos-rp-body.jpg" alt="There was supposed to be an Image here!" class="img1"></center>
+         <p class="para" style="margin-top: 10px;">Stepping up to a full-frame camera has never been easier. The mirrorless EOS RP – the lightest and most compact full-frame EOS camera to date* - includes a 26.2 MP CMOS sensor, fast and accurate autofocus, 4K video, and our powerful DIGIC 8 processor for exceptional results, even in low light. Explore vast creative possibilities with RF lenses as well as all EF/EF-S lenses**. Get impressive results using the camera’s helpful Feature Assistant and Creative Assist functions. Be imaginative with a number of special scene modes. And quickly adjust settings with the convenient Mode Dial. With its compact size, comfortable grip, vari-angle touchscreen LCD and electronic viewfinder, operation is familiar and easy. Whether you travel near or far, the EOS RP helps you capture your world with the quality, control and ease you crave.
+             <br>
+             <br>
+             Designed to take advantage of everything the RF mount has to offer, RF lenses represent a new frontier in lens design for mirrorless cameras. With a large 54mm lens mount, large diameter elements to match and placement closer to the image plane, RF lenses provide brilliant image quality edge-to-edge with minimal light fallout, enabling new possibilities for enhanced optics and compact designs. A supercharged 12 pin communication system optimizes data transfer between camera and lens for sharp, stable and responsive performance in a wide variety of applications. Delivering features and performance engineered to astound, RF optics herald a new day in Canon’s legacy of optical brilliance.
+             <br>
+             <br>
+             <h3 id="header1">Key specifications:</h3>
+         </p>
+         <hr class ="hr">
+         <p>
+             <ul  class="para">
+                 <li>Lightest, Smallest Full-frame EOS Camera*.</li>
+                 <li>RF Mount Compatible with RF Lenses and EF/EF-S Lenses*.</li>
+                 <li></li>
+             </ul>
+             <br>
+         </p>
+         <p class="next_page"><a href="index.html" class="fn"> ←prev </a> - <a href="" class="fn"> 3 </a> - <a href="" class="fn"> 4 </a> - <a href="" class="fn">next→</a>
+            <br><br>
+    <br>
+         </section>
     <br>
     <footer class="footer">
         <p style="font-family:  'Dongle', sans-serif; padding-bottom: 10px; color: rgba(255, 255, 255, 0.801); font-size: 25px; text-align: center;">©Better<i>reviews.com</i></p>
@@ -86,7 +92,7 @@
                         <li><a href="https://linktr.ee/numerology29">Shop</a></li>
                     </ul>
                 </div>
-                <div class=" ">
+                <div class="footer-col">
                     <h4>Services</h4>
                     <ul>
                         <li><a href="">Web development</a></li>
@@ -106,6 +112,5 @@
         </div>
     </footer>
 
-</form>
 </body>
 </html>

@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" >
 <style>
     #home{
         color: rgb(151, 13, 151);
@@ -25,25 +29,28 @@
         <nav>
             <img src ="logo.png" class="logo">
                 <a href="index.html" style="color: aliceblue; text-decoration: none; font-size: 35px;" class="logo_name"> BETTER<i> reviews.com</i></a>
-            <ul class="nav_links">
-                <li><a href="" class="main_nav_links">CONTACT US</a></li>
-                <li><a href="login.html" class="main_nav_links">LOGIN</a></li>
-                <li><a href="" class="main_nav_links">SERVICES</a></li>
-                <li><a href="" class="main_nav_links">TOOLS</a></li>
-                <li><a href="#home" class="main_nav_links" id="home">HOME</a></li>
-            </ul>
+                <div id="nav_links">
+                    <i class="fa fa-times" onclick = "hideMenu()" id="hide" style="display: none;"></i> 
+                    <ul class="nav_links" id="resp">
+                    <li><a href="#home" class="main_nav_links a" id="home">HOME</a></li>
+                    <li><a href="" class="main_nav_links a">TOOLS</a></li>
+                    <li><a href="" class="main_nav_links a">SERVICES</a></li>
+                    <li><a href="" class="main_nav_links a" id="conct">CONTACT US</a></li>
+                    <a href="" class="shop-img"><span class="a"style="font-family: 'Fuzzy Bubbles', cursive; font-size: 19px;" class="shop-name">Shop</span><img class="shop_logo" src="https://th.bing.com/th/id/R.984e6c563e1b12f4849dbdd29af55429?rik=%2bhkYGvcqrY3OcQ&riu=http%3a%2f%2fwww.iconninja.com%2ffiles%2f609%2f434%2f345%2fbuy-shopping-commerce-cart-shopping-cart-icon.png&ehk=Yc3Nd2e21eQO1ugCXrBy6geJNsz9PacBnmhEq9Y19E4%3d&risl=&pid=ImgRaw&r=0" alt=""></a>
+                    <li><a href="login.html"  style="margin-left: 1%; margin-right: 2%; padding: 15px;"> <span id="login-nav" class="a">LOGIN</span></a></li>
+
+                    </ul>
+                    <i class="fa fa-bars" onclick = "showMenu()" id="show"></i>
+                </div>
+             
         </nav>
     </header>
     <section class="blog">
-       <ul>
-         <li>
              <h2 id = "header1" class="header1" style="border-bottom: 4px solid purple;">
             * Best Canon camera 2021: 12 fantastic models from Canon's camera stable!!
         </h2>
-        </li>
-       </ul>
-       <div id ="img_div"><img src="https://digitalmujib.github.io/img1.jpg" alt="There was supposed to be an Image here!" class="img1"></div>
-        <p class="para" style="margin-top: 10px;">Regardless of whether you're new to photography or you've been shooting for a while, Canon is likely to be a name you're familiar with. Perhaps you're even already using one of their models. The veteran company has a vast range which includes several bodies spanning different body types, and different budgets.
+       <div id ="img_div"><img src="img1.jpg" alt="There was supposed to be an Image here!" class="img1"></div>
+        <p class="para" id="para1">Regardless of whether you're new to photography or you've been shooting for a while, Canon is likely to be a name you're familiar with. Perhaps you're even already using one of their models. The veteran company has a vast range which includes several bodies spanning different body types, and different budgets.
             <br>
             <br>
             Knowing which Canon camera is the right one for you can be difficult, with a wide array of choices ranging from pocket-friendly compact cameras to more advanced DSLRs and mirrorless systems. Then you'll need to make a decision between full-frame and APS-C format too. Pretty much every type of photographer is catered for by the brand, with more options added all the time.
@@ -59,13 +66,30 @@
             For now, keep reading to discover our list of the best Canon cameras you can buy right now.
         </p>
         <hr class ="hr">
-        <li><h2 id = "header1" style="border-bottom: 4px solid purple;">* Best Canon cameras 2021 at a glance:</h2></li>
+        <h2 id = "header1" style="border-bottom: 4px solid purple;">* Best Canon cameras 2021 at a glance:</h2>
         <p class="para">
-            <ul class="para" style="padding-bottom: 25px;">
+            <ul class="para" style="padding-bottom: 25px;" >
                 <li><a href="R5.html">◙ Canon EOS R5</a></li>
-                <li>◙ Canon EOS R6</li>
-                <li>◙ Canon EOS RP</li>
+                <img class="home-img" src="https://th.bing.com/th/id/R.d62bcd2151310d7a592785cb349fe9bf?rik=CtTKyShX%2b22e2A&pid=ImgRaw&r=0" alt="">
+                <span class="small-img">It's a 45MP full-frame mirrorless camera that can shoot clips of 8K video, has impressive Dual Pixel autofocus and excellent ergonomics. It can also capture 10-bit HDR stills and video for HDR display and is the spiritual (and mirrorless) successor to Canon's 5D-series DSLR cameras. It's not a perfect camera, but we think it's an excellent and highly competitive addition to an already crowded field of competent high-resolution full-frame mirrorless cameras.</span>
+                <a href="R5.html"><div class="read-more">Read more...</div></a>
+
+                <li> <a href="">◙ Canon EOS R6 </a></li>
+                <img class="home-img" src="https://th.bing.com/th/id/R.41abf873c5d36cf8c39d0afd68d091ba?rik=vLby%2fWCW9gGM3Q&pid=ImgRaw&r=0" alt="">
+                <span class="small-img">The EOS R6 full-frame mirrorless camera is designed to meet the demands of both photographers and video content creators who want a strong and versatile camera to keep up with their active lives. It can go from photographing high-speed action sports to filming 4K cinematic video with ease thanks to its high-performance CMOS sensor and DIGIC X image processor.</span>
+                <a href="r6.html"><div class="read-more">Read more...</div></a>
+                
+                <li><a href=""> ◙ Canon EOS RP</li></a>
+                <img class="home-img" src="https://www.jaskamerakauppa.fi/30236-thickbox_default/canon-eos-rp-body.jpg" alt="">
+                <span class="small-img">Stepping up to a full-frame camera has never been easier. The mirrorless EOS RP – the lightest and most compact full-frame EOS camera to date* - includes a 26.2 MP CMOS sensor, fast and accurate autofocus, 4K video, and our powerful DIGIC 8 processor for exceptional results, even in low light. Explore vast creative possibilities with RF lenses as well as all EF/EF-S lenses<span>
+                <a href="rp.html"><div class="read-more">Read more...</div></a>
+                
+
                 <li>◙ Canon EOS 250D</li>
+                <img class="home-img" src="https://www.jaskamerakauppa.fi/30236-thickbox_default/canon-eos-rp-body.jpg" alt="">
+                <span class="small-img">Stepping up to a full-frame camera has never been easier. The mirrorless EOS RP – the lightest and most compact full-frame EOS camera to date* - includes a 26.2 MP CMOS sensor, fast and accurate autofocus, 4K video, and our powerful DIGIC 8 processor for exceptional results, even in low light. Explore vast creative possibilities with RF lenses as well as all EF/EF-S lenses<span>
+                <a href="rp.html"><div class="read-more">Read more...</div></a>
+                
                 <li>◙ Canon G7X Mark III</li>
                 <li>◙ Canon EOS R</li>
                 <li>◙ Canon EOS M6 Mark II</li>
@@ -76,9 +100,10 @@
                 <li>◙ Canon 5D Mark IV </li>
             </ul>
         </p>
-        <p class="next_page"><a href="R5.html"> 2 </a> - <a href=""> 3 </a> - <a href="">next→</a>
-        </p>    
-
+        </p>
+        <div style="margin-top: 85%;"> <p class="next_page"><a href="R5.html" class="fn"> 2 </a> - <a href="" class="fn"> 3 </a> - <a href="" class="fn">next→</a></div>   
+    </p>
+         
     </section>
         <br>
         <footer class="footer">
@@ -122,5 +147,25 @@
                 </div>
             </div>
         </footer>
+
+        <script>
+            var navLinks = document.getElementById("resp");
+            var hide = document.getElementById("hide");
+            var show = document.getElementById("show");
+    
+            function showMenu(){
+                navLinks.style.right = "0px";
+                hide.style.display = "block";
+                show.style.display = "none";
+               
+            }
+    
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+                hide.style.display = "none";
+                show.style.display = "block";
+            }
+    
+        </script>
 </body>
 </html>

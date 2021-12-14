@@ -1,5 +1,5 @@
 body{
-    background-image: url(login.jpg);
+    background-image: url(https://wallpapershome.com/images/wallpapers/road-2560x1440-sky-clouds-mountains-8k-17775.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -21,7 +21,7 @@ body{
     text-align: center;
     margin: 10% auto;
     height: 350px;
-    width: 400px;
+    width: 360px;
     border: 2px solid black;
     padding: 20px;
     padding-bottom: 30px;
@@ -86,11 +86,13 @@ p,a{
 
 .log{
     padding-left: 6px;
-    border: 1px solid black;
 }
 #inp{
     border-radius: 10px;
     padding: 2px;
     color: black;
-    padding-left: 10px;
+}
+
+.footer-col,ul,li{
+    list-style: none;
 }
